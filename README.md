@@ -21,6 +21,10 @@ To convert ISN93 coordinates from Strætó, export the entire data file to csv, 
 	% coffee stops
 	Usage: stops input_file.csv output_file.csv
 	% coffee stops.coffee stops.csv nicely_formatted_stops.csv
+
+## Converting from CSV format to OSM format
+
+	% python csv2osm.py output_file.csv > output_file.osm
 	
 ## Caveats
 
